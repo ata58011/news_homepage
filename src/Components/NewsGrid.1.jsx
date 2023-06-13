@@ -1,5 +1,6 @@
 import React from "react";
 import web3_desktop from "../images/image-web-3-desktop.jpg";
+
 const NewsGrid = () => {
   return (
     <div className="container sm:flex inline-block grid-cols-2	mx-auto gap-x-8 font-inter 	 ">
@@ -21,7 +22,9 @@ const NewsGrid = () => {
               it really fulfilling its promise?
             </p>
             <div className="md:text-left ">
-              <button className="h-12 w-48 tracking-widest bg-[#F15E50] text-white">READ MORE</button>
+              <button className="h-12 w-48 tracking-widest bg-[#F15E50] text-white">
+                READ MORE
+              </button>
             </div>
           </div>
         </div>
@@ -52,5 +55,4 @@ const NewsGrid = () => {
     </div>
   );
 };
-
 export default NewsGrid;
